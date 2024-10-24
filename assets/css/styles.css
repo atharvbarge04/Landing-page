@@ -16,6 +16,9 @@
   --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
   --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
   --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+  --fb-color: #1877F2;
+  --insta-color: #ee2a7b;
+  --twitter-color: #1DA1F2;
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 5rem;
@@ -512,8 +515,17 @@ img {
   font-size: 1rem;
 }
 
-.footer__social-link:hover {
+/* .footer__social-link:hover {
   background-color: var(--black-color);
+} */
+.facebook:hover {
+  background-color: var(--fb-color);
+}
+.instagram:hover {
+  background-color: var(--insta-color);
+}
+.twitter:hover {
+  background-color: var(--twitter-color);
 }
 
 .footer__copy {
