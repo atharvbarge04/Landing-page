@@ -515,6 +515,15 @@ img {
 .footer__social-link:hover {
   background-color: var(--black-color);
 }
+.footer__social-link .facebook:hover {
+  background-color: #1877F2;
+}
+.footer__social-link .instagram:hover {
+  background-color: #F56040;
+}
+.footer__social-link .twitter:hover {
+  background-color: #1DA1F2;
+}
 
 .footer__copy {
   margin-top: 5rem;
